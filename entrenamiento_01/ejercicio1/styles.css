@@ -25,7 +25,17 @@ li a {
     display: flex;
     gap: 1%;
 
-    img {
+    figure {
         width: 33%;
+        margin: 0;
+        padding: 0;
     }
+
+    img {
+        height: 250px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+
 }
